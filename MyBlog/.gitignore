@@ -1,0 +1,72 @@
+# Виртуальное окружение
+myblog_env/
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# База данных SQLite (если используете)
+db.sqlite3
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+*.cover
+*.py,cover
+.pytest_cache
+.pyre/
+
+# IDE / Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+*.log.*
+
+# Статические файлы (если собираете в production — можно добавить в .gitignore, если нет — уберите)
+staticfiles/
+static/CACHE/
+
+# Секретные ключи и настройки (важно!)
+local_settings.py
+.env
+*.env
+
+# Django-specific
+/media/
+/static/
+
+# Макеты и временные файлы
+*.bak
+*.tmp
+*.old
+*~
+
+# Файлы миграций? — ОСТАВЬТЕ ИХ В ГИТЕ!
+# migrations/ — НЕ ИГНОРИРУЙТЕ! Только __pycache__ внутри
+blog/migrations/__pycache__/
+*/migrations/__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+._*
